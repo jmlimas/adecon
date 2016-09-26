@@ -1,0 +1,26 @@
+{% extends "base_principal.html" %}
+{% load static from staticfiles %}
+{% block title %} Adecon | Contactanos {% endblock %}
+
+{% block content %}
+<br>
+<br>
+<br>
+
+{% if info_enviado %}
+<br>
+		Gracias por enviar  tu comentario nos  pondremos en contacto con Usted..
+		<br>	 
+{% else %}
+	 	 <form action="." method="POST"> 
+	 	 	{% csrf_token %}
+	 	 	{{form.as_p}}
+			
+            <button type="submit" class="btn btn-primary" value="Enviar">
+                 Enviar 
+            </button>
+           
+		</form>
+{% endif %}
+
+{% endblock %}

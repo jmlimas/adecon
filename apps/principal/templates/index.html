@@ -1,0 +1,271 @@
+{% extends "base_principal.html" %}
+{% block title %}Adecon{% endblock title %}
+{% load static from staticfiles %}   
+
+{% block content %}
+  
+   <header class="app-header">
+            
+            <nav class="navbar app-navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                            <span class="icon-bar app-icon"></span>
+                            <span class="icon-bar app-icon"></span>
+                            <span class="icon-bar app-icon"></span>
+                        </button>
+                        <a href="#" class="navbar-brand app-link">ADE/CON</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav navbar-right app-nav">
+                            <li><a href="#">Incio</a></li>
+                            <li><a href="#">Mision</a></li>
+                            <li><a href="/contacto">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="app-seccion1">
+                <h1 class="app-titulo">ADE/CON</h1>
+                <h2 class="app-titulo">ADITIVOS, MATERIALES Y ESPECIALIDADES PARA LA <span class="app-resaltar">CONSTRUCCION</span></h2>
+               
+                <p class="app-descripcion"></p>
+
+                
+            </section>
+        </header>
+
+        <section class="app-seccion2">
+            <div class="container">
+                <div class="row">
+                       <div class="col-xs-12 col-sm-4">
+                            <img src="{% static 'img/6.jpg' %}" WIDTH=240 HEIGHT=258 class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                             <img src="{% static 'img/1.jpg' %}" WIDTH=240 HEIGHT=358 class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-sm-4 color1">
+                             <img src="{% static 'img/3.png' %}" WIDTH=240 HEIGHT=258 class="img-thumbnail">
+                        </div>
+                </div>
+                <br><br><br>
+                <div class="row">
+                        <div class="col-xs-12 col-sm-4 color1">
+                             <img src="{% static 'img/4.png' %}" WIDTH=240 HEIGHT=458 class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-sm-4 color1">
+                             <img src="{% static 'img/5.jpeg' %}" WIDTH=240 HEIGHT=258 class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                             <img src="{% static 'img/2.jpg' %}" WIDTH=240 HEIGHT=258 class="img-thumbnail">
+                        </div>
+
+                        
+                </div>
+                <br><br>
+                <div class="row">
+                        <div class="col-xs-12 col-sm-4 color1">
+                             <img  src="{% static 'img/8.jpeg' %}" WIDTH=240 HEIGHT=258 class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-sm-4 color1">
+                             <img src="{% static 'img/11.jpg' %}"  WIDTH=200 HEIGHT=100 class="img-thumbnail">
+                        </div>
+                         <div class="col-xs-12 col-sm-4 color1">
+                             <img src="{% static 'img/7.png' %}"  WIDTH=100 HEIGHT=80 class="img-thumbnail">
+                        </div>
+                </div>
+                     
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="app-seccion2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <br>
+                        <h2 class="app-titulo2">Explore la Genialidad</h2>
+                        <p class="app-separador"></p>
+                        <p class="app-justificar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eveniet tenetur magni inventore voluptatum fuga nulla totam ullam cum voluptas, dolore delectus, atque nobis modi! Rem alias nisi cupiditate eum.</p>
+
+                        <div class="media app-media">
+                            <div class="pull-left">
+                                <span class="glyphicon glyphicon-cog app-glyphicon1"></span>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Fácil de Personalizar</h4>
+                                <p class="app-justificar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ratione doloribus distinctio odio, illum quam facere perferendis, aperiam itaque autem nostrum odit! Aliquam doloribus architecto vitae atque unde asperiores et.</p>
+                            </div>
+                        </div>
+
+                        <div class="media app-media">
+                            <div class="pull-left">
+                                <span class="glyphicon glyphicon-shopping-cart app-glyphicon1"></span>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Lorem ipsum</h4>
+                                <p class="app-justificar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ratione doloribus distinctio odio, illum quam facere perferendis, aperiam itaque autem nostrum odit! Aliquam doloribus architecto vitae atque unde asperiores et.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <br>
+                        <img src="{% static 'img/16.jpg' %}" alt="" class="img-responsive">
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <section class="app-seccion2">
+            <div class="container">
+                <div class="app-contenedor">
+                    <h2 class="app-titulo3">Características del Producto</h2>
+                    <p class="app-separador2"></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-road glyphicon2"></p>
+                            <h3>Responsive Web Design</h3>
+                            <p class="app-descripcion2">jmlc.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-pencil glyphicon2"></p>
+                            <h3>350+ Iconos Fuentes</h3>
+                            <p class="app-descripcion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-gift glyphicon2"></p>
+                            <h3>Construido por Boostrap 3</h3>
+                            <p class="app-descripcion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-briefcase glyphicon2"></p>
+                            <h3>Fácil de Personalizar</h3>
+                            <p class="app-descripcion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-envelope glyphicon2"></p>
+                            <h3>Mensajería</h3>
+                            <p class="app-descripcion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="app-contenedor">
+                            <p class="glyphicon glyphicon-cloud glyphicon2"></p>
+                            <h3>Trabajar en Cloud</h3>
+                            <p class="app-descripcion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-seccion2">
+            <div class="container">
+                <div class="app-contenedor">
+                    <h2 class="app-titulo3">Paquetes</h2>
+                    <p class="app-separador2"></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. seccion 3</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <ul class="list-group">
+                            <li class="list-group-item app-lista1">
+                                <h2>Productos Basicos</h2>
+                                <p>Desde $39 por mes</p>
+                            </li>
+                            <li class="list-group-item">Usuarios Totales <span class="badge">50</span></li>
+                            <li class="list-group-item">Protección Avanzada<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Estilos Ilimitados<span class="pull-right glyphicon glyphicon-remove"></span></li>
+                            <li class="list-group-item">Almacenamiento en la Nube<span class="pull-right glyphicon glyphicon-remove"></span></li>
+                            <li class="list-group-item">Servicio de Reserva<span class="pull-right glyphicon glyphicon-remove"></span></li>
+                            <li class="list-group-item app-precio">
+                                <span class="app-pago">$39 por Mes</span>
+                                <button class="btn app-btn1">Contratar</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <ul class="list-group">
+                            <li class="list-group-item app-lista2">
+                                <h2>Premium</h2>
+                                <p>Desde $59 por mes</p>
+                            </li>
+                            <li class="list-group-item">Usuarios Totales <span class="badge">100</span></li>
+                            <li class="list-group-item">Protección Avanzada<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Estilos Ilimitados<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Almacenamiento en la Nube<span class="pull-right glyphicon glyphicon-remove"></span></li>
+                            <li class="list-group-item">Servicio de Reserva<span class="pull-right glyphicon glyphicon-remove"></span></li>
+                            <li class="list-group-item app-precio">
+                                <span class="app-pago">$59 por Mes</span>
+                                <button class="btn app-btn2">Contratar</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <ul class="list-group">
+                            <li class="list-group-item app-lista1">
+                                <h2>Ultimate</h2>
+                                <p>Desde $99 por mes</p>
+                            </li>
+                            <li class="list-group-item">Usuarios Totales <span class="badge">200</span></li>
+                            <li class="list-group-item">Protección Avanzada<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Estilos Ilimitados<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Almacenamiento en la Nube<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item">Servicio de Reserva<span class="pull-right glyphicon glyphicon-ok"></span></li>
+                            <li class="list-group-item app-precio">
+                                <span class="app-pago">$99 por Mes</span>
+                                <button class="btn app-btn1">Contratar</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <footer class="app-footer">
+            <div class="app-empresa">
+                <h4>ADE/CON</h4>
+                <p>Soluciones para la construccion.</p>
+                <p>Parque Industrial Lagunero, Código Postal 35077, Gómez Palacio, Durango</p>
+            </div>
+
+ 
+                <span>
+                  <a href="https://www.facebook.com/david.arreola.792197" type="button" class="icon-facebook app-icon1"></a>
+                </span>
+             
+      
+      
+            <span class="icon-twitter app-icon1"></span>
+            <span class="icon-googleplus app-icon1"></span>
+        </footer>
+
+ 
+                            
+{% block js %}
+     
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+{% endblock js %}         
+
+{% endblock content %}
+
